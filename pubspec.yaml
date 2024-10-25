@@ -1,0 +1,30 @@
+name: wordle_exam
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  equatable: ^2.0.5
+  shared_preferences: ^2.3.2
+  dio: ^5.7.0
+  get_it: ^8.0.0
+  injectable: ^2.5.0
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
+  material_color_utilities: ^0.11.1
+  soft_keyboard: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  injectable_generator:  
+  build_runner: 
+
+flutter:
+  uses-material-design: true
